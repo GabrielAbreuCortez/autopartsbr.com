@@ -4,7 +4,8 @@
 ## Estilizado com CSS <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
 ## E uma lógica simples utilizando Javascript <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
 
-Situação de Aprendizagem 1
+## Contexto
+Situação de Aprendizagem 1 <br>
 A empresa "AutoParts Online" é uma revendedora de autopeças com uma extensa variedade de produtos para veículos de diferentes marcas e modelos. Até o momento, a empresa tem se limitado a vender suas peças apenas em lojas físicas, mas reconhece a importância de expandir suas operações para o ambiente online para alcançar um público mais amplo e aumentar as vendas.
 No entanto, a "AutoParts Online" enfrenta o desafio de implementar um site de comércio eletrônico usando apenas HTML e CSS, sem o uso de linguagens de programação mais avançadas ou plataformas de comércio eletrônico pré-fabricadas.
 Algumas das necessidades e considerações importantes para a implementação deste site incluem:

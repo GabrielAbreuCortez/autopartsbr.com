@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title> Orçamento AutoParts</title>
+    <link rel="stylesheet" href="../css/orcamento.css">
+</head>
+<body background="../imagens/fundo.jpg">
+    <header>
+        <img src="../imagens/logo.png">
+    </header>
+    <main>
+        <form>
+            <h2>PREENCHA  O FORMULARIO QUE <br> ENTREREMOS EM CONTATO COM VC</h2>
+            <h3> DIGITE SEU NOME: </h3>
+            <input type="text" name="nome" placeholder="digite seu Nome aqui">
+            <h3> DIGITE SEU EMAIL: </h3>
+            <input type="email" name="email" placeholder="Digite seu e-mail">
+            <h3> DIGITE SEU NUMERO: </h3>
+            <input type="tel" name="numero" placeholder="Digite seu numero"><br>
+            <input class="inputEnviar" type="submit" name="enviar" value="Enviar">
+            <br>   
+        </form>
+    </main>
+    <button><a href="../index.html">voltar</a></button>
+
+
+    <footer>
+        <p>© 2024 AutoParts - Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('form');
+            const inputs = form.querySelectorAll('input[type="text"], input[type="email"], input[name="numero"]');
+    
+            form.addEventListener('submit', function (e) {
+                e.preventDefault(); // Impede o envio automático
+    
+                let allFilled = true;
+    
+                inputs.forEach(input => {
+                    if (input.value.trim() === '') {
+                        allFilled = false;
+                    }
+                });
+    
+                if (allFilled) {
+                    alert('Todos os dados foram preenchidos corretamente!');
+                    alert('Aguarde que entraremos em contato.');
+                    // Aqui você pode enviar o formulário se quiser, por exemplo:
+                    // form.submit();
+                } else {
+                    alert('Por favor, preencha todos os campos antes de enviar.');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

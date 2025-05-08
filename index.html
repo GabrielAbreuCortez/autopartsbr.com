@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoParts Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body background="imagens/fundo.jpg">
+    <header>
+        <img src="imagens/logo.png">
+        <h1>SOLUÇÃO EM PEÇAS AUTOMOBILÍSTICAS</h1>
+    </header>
+    <nav>
+        <a href="html/orcamento.html"> ORÇAMENTO </a>
+        <a href="html/contato.html"> CONTATO </a>
+        <a href="html/sobre.html"> SOBRE </a>
+    </nav>
+    <main>
+        <aside>
+            <h3> PRODUTOS </h3>
+            <a href="./html/FreioEMotor.html"> FREIO E MOTOR </a>
+            <a href="./html/SistemaDeExaustao.html"> SISTEMA DE EXAUSTÃO </a>
+            <a href="./html/SuspençãoEDireção.html"> SUSPENSÃO E DIREÇÃO </a>
+            <a href="./html/TransmissãoEEmbreagem.html"> TRANSMISSÃO E EMREAGEM </a>
+            <a href="./html/EletronicosEIluminacao.html"> ELETRÔNICOS E ILUMINAÇÃO </a>
+            <a href="./html/ArrefecimentoEClimatizacao.html"> ARREFECIMENTO E  CLIMATIZAÇÃO </a>
+            <a href="./html/SistemaEletrico.html"> SISTEMA ELÉTRICO </a>
+            <a href="./html/InteriorEExterior.html"> INTERIOR E  EXTERIOR </a>
+            <a href="./html/Acessorios.html"> ACESSORIOS </a>
+        </aside>
+        <section>
+            <form>
+                <h2>FAÇA SEU ORÇAMENTO</h2>
+                <h3> DIGITE SEU NOME: </h3>
+                <input type="text" name="nome" placeholder="digite seu Nome aqui">
+                <h3> DIGITE SEU EMAIL: </h3>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+                <h3> DIGITE SEU NUMERO: </h3>
+                <input type="tel" name="numero" placeholder="Digite seu numero"><br>
+                <input class="inputEnviar" type="submit" name="enviar" value="Enviar">
+                <br>   
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 AutoParts - Todos os direitos reservados</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('form');
+            const inputs = form.querySelectorAll('input[type="text"], input[type="email"], input[name="numero"]');
+    
+            form.addEventListener('submit', function (e) {
+                e.preventDefault(); // Impede o envio automático
+    
+                let allFilled = true;
+    
+                inputs.forEach(input => {
+                    if (input.value.trim() === '') {
+                        allFilled = false;
+                    }
+                });
+    
+                if (allFilled) {
+                    alert('Todos os dados foram preenchidos corretamente!');
+                    alert('Aguarde que entraremos em contato.');
+                    // Aqui você pode enviar o formulário se quiser, por exemplo:
+                    // form.submit();
+                } else {
+                    alert('Por favor, preencha todos os campos antes de enviar.');
+                }
+            });
+        });
+    </script>
+    
+
+</body>
+</html>

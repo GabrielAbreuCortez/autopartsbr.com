@@ -13,5 +13,5 @@ Algumas das necessidades e considerações importantes para a implementação de
 3.    Processo de compra simplificado: Mesmo sem um sistema de carrinho de compras dinâmico e cadastro, o site deve fornecer instruções claras sobre como os clientes podem fazer pedidos, incluindo informações de contato para solicitar cotações ou realizar compras por telefone.
 4.    Design atraente e profissional: Mesmo com as limitações do HTML e CSS, o design do site deve ser atraente e transmitir profissionalismo, utilizando elementos visuais como imagens de alta qualidade e uma paleta de cores adequada.
 Ao enfrentar o desafio de implementar um site de comércio eletrônico, a "AutoParts Online" terá a oportunidade de estabelecer uma presença online e alcançar um público mais amplo de clientes em busca de peças de reposição automotiva.
-
-## Projeto feito para uma atividade quando iniciei meus estudos em programação
+<hr>
+## Projeto feito para uma atividade quando iniciei meus estudos em programação.

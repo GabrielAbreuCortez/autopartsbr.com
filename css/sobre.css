@@ -1,0 +1,77 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /*altura*/
+}
+footer {
+    height: 5vh;
+    width: 20vw;
+    margin: 1%;
+    margin-left: 40%;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    border: 1px solid rgb(95, 95, 95); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+}
+button{
+    width: 7vw;
+    height: 7vh;
+    border: 3px solid rgb(95, 95, 95);
+    border-radius: 20px;
+    background-color: rgb(41, 41, 136);
+}
+button:hover{
+    border: 2px solid red;
+}
+a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+section{
+    width: 96vw;
+    height: 50vh;
+    
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(83, 85, 91, 0.912);
+}
+h4, h3{
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(95, 95, 95); 
+    border-radius: 10px;
+    width: 20vw;
+    margin: 1%;
+    margin-left: 40%;
+}
+h3{
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}

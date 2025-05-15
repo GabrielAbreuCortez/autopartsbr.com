@@ -2,7 +2,7 @@
 # Meu primeiro site
 **Projeto feito para uma atividade quando iniciei meus estudos em programação.**
 
-## Link do dominio: https://meu-primeiro-site-tawny.vercel.app
+## Link do dominio: [https://meu-primeiro-site-tawny.vercel.app](https://gabrielabreucortez.github.io/autopartsbr.com/)
 
 ## Feito com a linguagem de marcação HTML <img align="center" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
 ## Estilizado com CSS <img align="center" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
